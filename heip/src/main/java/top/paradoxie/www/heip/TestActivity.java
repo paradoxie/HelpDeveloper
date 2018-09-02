@@ -3,6 +3,9 @@ package top.paradoxie.www.heip;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
+
+@Route(path = "/app/TestActivity")
 public class TestActivity extends AppCompatActivity {
 
     @Override
